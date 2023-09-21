@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "PURÉ DE TOMATES 520GR",
+    "description": "Marolio",
+    "price": 500,
+    "thumbnails": "https://www.marolio.com.ar/sites/default/files/styles/portfolio_3_cols/public/salsa-1.jpg?itok=Ef7rhWWe",
+    "code": "marolio1",
+    "stock": 10
+  },
+  {
+    "id": 2,
+    "title": "MAYONESA 482GR",
+    "description": "Marolio",
+    "price": 350,
+    "thumbnails": "https://www.marolio.com.ar/sites/default/files/styles/portfolio_3_cols/public/mayonesa.jpg?itok=oppNbC6n",
+    "code": "marolio2",
+    "stock": 40
+  },
+  {
+    "id": 3,
+    "title": "VINAGRE DE ALCOHOL 1LT",
+    "description": "Marolio",
+    "price": 300,
+    "thumbnails": "https://www.marolio.com.ar/sites/default/files/styles/portfolio_3_cols/public/vinagre-1.jpg?itok=DM5SqJ3u",
+    "code": "marolio3",
+    "stock": 30
+  },
+  {
+    "id": 4,
+    "title": "FIDEOS NIDO 500GR",
+    "description": "Marolio",
+    "price": 400,
+    "thumbnails": "https://www.marolio.com.ar/sites/default/files/styles/portfolio_3_cols/public/fideos-nido.jpg?itok=udhqzsrj",
+    "code": "marolio4",
+    "stock": 40
+  },
+  {
+    "id": 5,
+    "title": "CACAO 180GR",
+    "description": "Marolio",
+    "price": 5000,
+    "thumbnails": "https://www.marolio.com.ar/sites/default/files/styles/portfolio_3_cols/public/cacao.jpg?itok=7fmRDp0h",
+    "code": "marolio5",
+    "stock": 50
+  },
+  {
+    "id": 6,
+    "title": "ARROZ DOBLE 500GR",
+    "description": "Marolio",
+    "price": 200,
+    "thumbnails": "https://www.marolio.com.ar/sites/default/files/styles/portfolio_3_cols/public/arroz-2.jpg?itok=AZRiFUgU",
+    "code": "marolio6",
+    "stock": 60
+  },
+  {
+    "id": 7,
+    "title": "YERBA MATE TRADICIONAL 500GR",
+    "description": "Marolio",
+    "price": 700,
+    "thumbnails": "https://www.marolio.com.ar/sites/default/files/styles/portfolio_3_cols/public/YerbaMateTradicional-500gr.jpg?itok=axdXdyj-",
+    "code": "marolio7",
+    "stock": 70
+  },
+  {
+    "id": 8,
+    "title": "FIDEOS TALLARINES 500G",
+    "description": "Marolio",
+    "price": 370,
+    "thumbnails": "https://www.marolio.com.ar/sites/default/files/styles/portfolio_3_cols/public/Tallarines1500.jpg?itok=5BP49zo9",
+    "code": "marolio8",
+    "stock": 80
+  },
+  {
+    "id": 9,
+    "title": "ARROZ LARGO FINO 1KG",
+    "description": "Marolio",
+    "price": 900,
+    "thumbnails": "https://www.marolio.com.ar/sites/default/files/styles/portfolio_3_cols/public/LargoFino1kg.jpg?itok=3RLENmQn",
+    "code": "marolio9",
+    "stock": 90
+  },
+  {
+    "id": 10,
+    "title": "ACEITE GIRASOL 1.500CC",
+    "description": "Marolio",
+    "price": 1000,
+    "thumbnails": "https://www.marolio.com.ar/sites/default/files/styles/portfolio_3_cols/public/AceiteGirasol1500.jpg?itok=VkWIcwoe",
+    "code": "marolio10",
+    "stock": 100
+  }
+]
