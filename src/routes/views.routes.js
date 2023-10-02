@@ -34,6 +34,18 @@ router.get("/login", (req, res) => {
     res.render("login");
 });
 
+router.get("/logout", async (req, res) => {
+    res.redirect("/");
+});
+
+router.get("/faillogin", (req, res) => {
+    res.send({status:"error", message:"Login inválido!"});
+});
+
+router.get("/failregister", (req, res) => {
+    res.send({status:"Error", message:"Error! No se pudo registar el Usuario!"});
+});
+
 router.get("/register", (req, res) => {
     res.render("register");
 });
@@ -55,10 +67,6 @@ router.get("/cart/:cid", async (req, res) => {
 
 router.get("/restore", (req, res) => {
     res.render("restore");
-})
-
-router.get("/failregister", (req, res) => {
-    res.render("failregister");
 })
 
 export default router;

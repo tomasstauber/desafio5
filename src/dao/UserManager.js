@@ -3,12 +3,10 @@ import { userModel } from "./models/user.model.js";
 class UserManager {
 
     async addUser(user) {
-        /* try {
+        try {
             if (user.email == "adminCoder@coder.com" && user.password == "adminCod3r123") {
                 user.role = "admin";
             }
-        }  */
-        try {
             await userModel.create(user);
             console.log("Ususario creado correctamente!");
             return true;
@@ -53,20 +51,7 @@ class UserManager {
             console.log("Ha ocurrido un error al actualizar la contraseña!");
             return false;
         }
-    } 
-
-    /*     async getUsersById(id) {
-            if (this.validateId(id)){
-                return await userModel.findOne({_id:id}).lean() || null;
-            } else {
-                console.log("Usuario no encontrado!");
-                return null; 
-            }
-        }
-    
-        validateId(id) {
-            return id.length === 24 ? true : false;
-        } */
+    }
 }
 
 export default UserManager;

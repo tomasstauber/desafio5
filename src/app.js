@@ -13,7 +13,7 @@ import cookieParser from "cookie-parser";
 import session from "express-session";
 import MongoStore from "connect-mongo";
 import { allowInsecurePrototypeAccess } from '@handlebars/allow-prototype-access';
-import sessionsRouter from "./routes/sesions.routes.js";
+import sessionsRouter from "./routes/sessions.routes.js";
 import passport from "passport";
 import initializePassport from "./config/passport.config.js";
 
